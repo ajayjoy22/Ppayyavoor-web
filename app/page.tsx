@@ -369,7 +369,7 @@ export default function Home() {
 
       {/* 7. FOOTER */}
       <footer className="border-t border-slate-800 bg-slate-950 py-10 pb-20 md:pb-10 text-center text-xs text-slate-400">
-        <p>© {new Date().getFullYear()} Payyavoor Enterprises. All rights reserved.</p>
+        <p>© 2026 Payyavoor Enterprises. All rights reserved.</p>
         <p className="mt-1 text-slate-500">Structural Metal Works • Roofing • Designer Gates • Heavy Iron Works</p>
       </footer>
     </div>
