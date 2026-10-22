@@ -63,7 +63,7 @@ export default function Home() {
   const [formSent, setFormSent] = useState(false);
 
   const WHATSAPP_NUM = "9446167904"; 
-  const MAP_URL = "https://maps.google.com/?q=3H4J%2BQXH,+Ulikkal+-+Mundanoor-+Payyavoor+Road,+Payyavoor,+Keralam+670633";
+  const MAP_URL = "https://maps.app.goo.gl/dmB4SfXSqoVBnVtV6";
 
   const handleWhatsAppDirect = () => {
     const text = encodeURIComponent(`Hi Payyavoor Enterprises, I want an estimate for ${selectedService}.`);
@@ -301,7 +301,7 @@ export default function Home() {
                   <div>
                   <p className="font-semibold text-white">Workshop Address</p>
                   <p className="text-slate-400 text-xs mt-1">
-                    3H4J+QXH, Ulikkal - Mundanoor- Payyavoor Road, Payyavoor, Keralam 670633
+                    Payyavoor Enterprises,3H4J+QXH, Ulikkal - Mundanoor- Payyavoor Road, Payyavoor, Keralam 670633
                   </p>
                   </div>
                 </div>
@@ -337,7 +337,7 @@ export default function Home() {
             <div className="lg:col-span-7 h-[420px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-900">
               <iframe
                 title="Payyavoor Enterprises Location"
-                src="https://maps.google.com/maps?q=3H4J%2BQXH,+Ulikkal+-+Mundanoor-+Payyavoor+Road,+Payyavoor,+Keralam+670633&hl=en&z=16&output=embed"
+                src="https://maps.app.goo.gl/dmB4SfXSqoVBnVtV6"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: "contrast(1.1) invert(0.9) hue-rotate(180deg)" }}
