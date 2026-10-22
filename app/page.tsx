@@ -333,19 +333,18 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Embedded Google Map */}
-            <div className="lg:col-span-7 h-[420px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-900">
-              <iframe
-                title="Payyavoor Enterprises Location"
-                src="https://maps.app.goo.gl/dmB4SfXSqoVBnVtV6"
-                width="100%"
-                height="100%"
-                style={{ border: 0, filter: "contrast(1.1) invert(0.9) hue-rotate(180deg)" }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-
+{/* Embedded Google Map */}
+<div className="lg:col-span-7 h-[420px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-900">
+  <iframe
+    title="Payyavoor Enterprises Location"
+    src="https://maps.google.com/maps?q=Payyavoor+Enterprises,+Ulikkal+-+Mundanoor-+Payyavoor+Road,+Payyavoor&hl=en&z=16&output=embed"
+    width="100%"
+    height="100%"
+    style={{ border: 0, filter: "contrast(1.1) invert(0.9) hue-rotate(180deg)" }}
+    allowFullScreen={false}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
             </div>
 
           </div>
